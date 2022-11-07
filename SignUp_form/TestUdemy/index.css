@@ -1,0 +1,33 @@
+.MainBox{
+display:flex;
+flex-direction:row;
+justify-content:center;
+align-items:center;
+}
+.InnerBox{
+   align-items:center;
+   justify-content:center; 
+   cursor:pointer;
+   border:2px;
+}
+.submit{
+background-color: #a435f0;
+height:4.8rem;
+width: 250px;
+font-size:95%;
+display: inline-block;
+font-style: antialiased;
+justify-content: center;
+color: white;
+border:none;
+padding:12px 12px;
+cursor:pointer;
+transition-duration: 0.1s;
+}
+.submit:hover{
+   background-color:blueviolet;
+}
+.input{
+   border: 100px;
+   border-color: black;
+}

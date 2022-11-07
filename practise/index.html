@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Document
+        </title>
+    </head>
+    <style>
+        .namefield{
+            color:pink;
+        }
+        .red-class{
+            color:red;
+        }
+        .green-class{
+            color:greenyellow;
+        }
+    </style>
+    <body>
+        <h2 class="namefield"></h2>
+        <h2 id="names">Riya</h2>
+        <h2 id="names">Gupta</h2>
+        <h2 id="names">Hello</h2>
+        <h2 id="names">John</h2>
+    
+    </body>
+    <script>
+        const nameList = document.querySelectorAll("#names")
+        console.log(nameList)
+        for(let i=0;i<nameList.length;i++){
+            if(i%2===0){
+                nameList[i].classList="red-class"
+            }
+            else{
+                nameList[i].classList="green-class"
+            }
+        }
+        //if (true){
+        //    document.querySelector("#names").classList="red-class riya gupta"
+      // }
+    </script>
+
+
+
+</html>
